@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.main {
+  background-image: url(./fixed.jpeg);
+  background-attachment: fixed;
+  width: 100vw;
+  height: 90vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+img {
+  width: 100%;
+}
+
+.S-head {
+  text-align: center;
+}
+
+.boat {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.b-center {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.nit {
+  align-items: center;
+  margin-left: 50px;
+
+}
+
+.nit img {
+  filter: grayscale(100%);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.nit img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+
+.col-4 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.links {
+  list-style-type: none;
+  text-decoration: none;
+  color: aliceblue;
+}
